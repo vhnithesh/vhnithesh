@@ -76,7 +76,6 @@ GPA: 7.66 / 10.0 · Aug 2023 – May 2027
 
 - **CAD Modelling Team** — IEEE Robotics and Automation Society, PES University *(Mar 2025 – Present)*
 - **Scientific Researcher** — Equinox: The Space Club, PES University *(Nov 2024 – Present)*
-- **Stage & Infrastructure Organizer** — Aatmatrisha & Samarpana Events *(Feb – Nov 2024)*
 
 ---
 
