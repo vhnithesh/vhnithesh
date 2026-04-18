@@ -10,76 +10,56 @@ I'm an Electronics and Communication Engineering student at **PES University, Ba
 
 My current research sits at the intersection of **hardware security** and **post-quantum cryptography**, where I design resource-efficient cryptographic cores for ASIC and FPGA targets. I also work on hardware accelerators for compute-intensive domains like bioinformatics and hardware verification.
 
----
+RISC-V is where a lot of my processor work lives — I find the open ISA ecosystem genuinely exciting, both for building custom micro-architectures and for exploring how the pipeline interacts with security and verification tooling. Running the full RTL-to-GDSII flow on a RISC-V core from scratch is one of the most grounding exercises in digital design.
 
-## Research & Projects
-
-### 🔐 Post-Quantum Secure JTAG Access Manager *(Nov 2025 – Mar 2026)*
-**Hardware Security · FPGA & ASIC**
-
-Built a post-quantum secure iJTAG access manager integrating:
-- **ML-KEM (Kyber-512)** for key encapsulation
-- **Ascon AEAD / Hash / PRF / MAC** for authenticated encryption
-- **SRAM PUF with BCH ECC** for device-unique key generation
-- Encrypted scan chain for secure DFT access
-
-Proposed a **unified Ascon permutation architecture** that shares one core across six cryptographic operations — better area efficiency than standalone implementations.
+On the software side, I'm drawn to machine learning — particularly how ML can be pushed closer to silicon. I'm interested in the space where neural networks meet hardware: efficient inference architectures, hardware-aware model design, and eventually building custom ML accelerators in RTL. The idea of co-designing algorithms and the hardware they run on is what pulls me toward this area.
 
 ---
 
-### ⚙️ RTL to GDSII — Wally RISC-V Processor *(Aug 2025 – Present)*
-**Processor Architecture · Cadence Toolchain**
 
-- Designed a multi-cycle RISC-V processor supporting R, I, B, and S-type instructions
-- Achieved full timing closure across all PVT corners using Cadence Genus + Innovus + Tempus
-- Focused on control-path setup constraints; verified with waveform analysis in Xilinx Vivado
+## 💻 Technical Skills
+
 
 ---
 
-### 🧬 K-Mer Counting Hardware Accelerator *(Mar 2026)*
-**Bioinformatics RTL · Verilog HDL**
+### 🔷 HDL / RTL Languages
 
-- Synthesizable Verilog RTL accelerator for K-mer frequency counting from streaming DNA input
-- Processes one base per clock cycle at **100 MHz** on Cadence SimVision
-- Shift-register datapath with single-cycle read-modify-write counter memory
-- 4-state FSM (IDLE → FILL → RUN → DONE); verified across **22/22 self-checking testbench cases** including error detection
-
----
-
-### 🔒 RTL to GDSII — AES-128 Encoder *(Aug – Dec 2025)*
-**Digital Design · Physical Implementation**
-
-- Full RTL-to-GDSII flow on Cadence toolchain (Genus, Innovus, Tempus)
-- Achieved **20–25% timing improvement** and **10–18% power reduction** via datapath optimization and clock gating
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-4338CA?style=for-the-badge&logoColor=white)
+![Verilog HDL](https://img.shields.io/badge/Verilog_HDL-0891B2?style=for-the-badge&logoColor=white)
+![SystemC](https://img.shields.io/badge/SystemC-1D4ED8?style=for-the-badge&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-57534E?style=for-the-badge&logo=c&logoColor=white)
 
 ---
 
-### 🤖 Micro Guardian: Autonomous Pest Detection Rover *(May – Jul 2025)*
-**Computer Vision · Embedded Systems · Internship at CIOT**
+### 🟡 Cadence Tool Suite
 
-- Six-wheeled rover with camera-based neural network for real-time pest detection
-- Servo-controlled targeting system integrated with live inference pipeline
-
----
-
-### 🛸 Aerial Survey of Martian Surface *(Nov – Dec 2024)*
-**Autonomous Navigation Systems**
-
-- Designed an autonomous quadcopter navigation system with dust storm resilience for simulated Martian survey conditions
+![Genus](https://img.shields.io/badge/Genus-F59E0B?style=for-the-badge&logoColor=white)
+![Innovus](https://img.shields.io/badge/Innovus-F97316?style=for-the-badge&logoColor=white)
+![Tempus](https://img.shields.io/badge/Tempus-84CC16?style=for-the-badge&logoColor=white)
+![Jasper Gold](https://img.shields.io/badge/Jasper_Gold-D946EF?style=for-the-badge&logoColor=white)
+![Virtuoso](https://img.shields.io/badge/Virtuoso-64748B?style=for-the-badge&logoColor=white)
 
 ---
 
-## Technical Skills
+### 🟣 EDA Tools
 
-| Domain | Tools & Technologies |
-|---|---|
-| **RTL Design** | SystemVerilog, Verilog HDL, SystemC |
-| **Physical Design** | Cadence Innovus, Genus, Tempus, Calibre |
-| **Formal Verification** | Cadence Jasper Gold |
-| **FPGA** | Xilinx Vivado |
-| **Simulation** | EDA Playground, LTspice, Cadence SimVision |
-| **Languages** | Python, C |
-| **Domains** | Post-Quantum Crypto, Low-Power Design, Hardware Security, STA |
+![Xilinx Vivado](https://img.shields.io/badge/Xilinx_Vivado-7C3AED?style=for-the-badge&logoColor=white)
+![Calibre](https://img.shields.io/badge/Calibre-0EA5E9?style=for-the-badge&logoColor=white)
+![LTspice](https://img.shields.io/badge/LTspice-EA580C?style=for-the-badge&logoColor=white)
+![EDA Playground](https://img.shields.io/badge/EDA_Playground-16A34A?style=for-the-badge&logoColor=white)
+
+---
+
+### 🔴 VLSI Domains
+
+![RTL Design](https://img.shields.io/badge/RTL_Design-6366F1?style=for-the-badge&logoColor=white)
+![Formal Verification](https://img.shields.io/badge/Formal_Verification-CA8A04?style=for-the-badge&logoColor=white)
+![Physical Design](https://img.shields.io/badge/Physical_Design-0891B2?style=for-the-badge&logoColor=white)
+![Static Timing Analysis](https://img.shields.io/badge/Static_Timing_Analysis-A855F7?style=for-the-badge&logoColor=white)
+![Low Power Design](https://img.shields.io/badge/Low_Power_Design-15803D?style=for-the-badge&logoColor=white)
+![Hardware Security](https://img.shields.io/badge/Hardware_Security-DC2626?style=for-the-badge&logoColor=white)
+![Post-Quantum Crypto](https://img.shields.io/badge/Post--Quantum_Crypto-B45309?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -91,15 +71,6 @@ GPA: 7.66 / 10.0 · Aug 2023 – May 2027
 
 ---
 
-## Certifications & Recognition
-
-- 🥇 **Top 5 Finalist** — Spiral State-Level Hackathon, PES University (Aug 2024)
-- 🏆 **Top 10** — Arithemania Hackathon, PES University (Dec 2025)
-- Data Structures & Algorithms — Udemy (2024)
-- AWS Introduction (2023)
-- MySQL Bootcamp — Udemy (2024)
-
----
 
 ## Community
 
