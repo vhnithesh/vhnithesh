@@ -67,7 +67,7 @@ On the software side, I'm drawn to machine learning — particularly how ML can 
 
 **PES University**, Bangalore, Karnataka
 B.Tech in Electronics and Communication Engineering
-GPA: 7.66 / 10.0 · Aug 2023 – May 2027
+GPA: 7.68 / 10.0 · Aug 2023 – May 2027
 
 ---
 
